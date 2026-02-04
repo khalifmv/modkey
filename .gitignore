@@ -1,0 +1,9 @@
+.DS_Store
+/dist
+/npm-cache
+/node_modules
+
+# demo not ready yet
+/docs/demo.js
+/docs/style.css
+/docs/index.html

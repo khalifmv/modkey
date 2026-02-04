@@ -1,0 +1,53 @@
+{
+  "name": "modkey",
+  "version": "1.0.0",
+  "author": {
+    "name": "Khalif",
+    "email": "khalif@lumiviu.com",
+    "url": "https://github.com/khalifmv"
+  },
+  "description": "A framework-agnostic global keyboard shortcut manager for the browser",
+  "type": "module",
+  "main": "./dist/modkey.cjs",
+  "module": "./dist/modkey.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/modkey.js",
+      "require": "./dist/modkey.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "keyboard",
+    "shortcut",
+    "hotkey",
+    "keybinding",
+    "keyboard-shortcuts",
+    "hotkeys",
+    "shortcut-manager",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-dts": "^3.7.1"
+  }
+}
