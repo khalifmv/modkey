@@ -8,13 +8,12 @@
   },
   "description": "A framework-agnostic global keyboard shortcut manager for the browser",
   "type": "module",
-  "main": "./dist/modkey.cjs",
+  "main": "./dist/modkey.js",
   "module": "./dist/modkey.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/modkey.js",
-      "require": "./dist/modkey.cjs",
       "types": "./dist/index.d.ts"
     }
   },
@@ -41,7 +40,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/khalifmv/modkey"
   },
   "homepage": "",
   "devDependencies": {

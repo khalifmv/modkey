@@ -2,7 +2,18 @@
 
 <img src="./docs/modkey-ts.png" alt="Modkey" width="100"/>
 <h3>Modkey 🙈</h3>
-<p>A framework-agnostic global keyboard shortcut manager for the browser.</p>
+<p>A framework-agnostic global keyboard shortcut manager for the web.</p>
+<a href="https://www.npmjs.com/package/modkey" target="_blank" rel="noopener noreferrer">
+<div style="display: inline-block;">
+  <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff" alt="npm">
+  <a href="https://github.com/khalifmv/modkey/blob/main/LICENSE" target="_blank">
+  <img src="https://img.shields.io/npm/l/modkey" alt="license">
+  <img src="https://img.shields.io/badge/platform-browser-blue" />
+
+</a>
+
+</div>
+</a>
 </div>
 
 ## Installation
